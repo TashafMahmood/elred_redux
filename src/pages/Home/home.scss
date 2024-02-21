@@ -1,0 +1,21 @@
+.product_div {
+  img {
+    height: 80px;
+    max-width: 100%;
+  }
+}
+
+.productName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.loader_state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 48px);
+}
